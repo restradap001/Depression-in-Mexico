@@ -1,33 +1,33 @@
-Capitales,Longitud,Latitud
+estado,longitud,latitud
 Aguascalientes,21.8853,-102.2916
-Mexicali,32.6245,-115.4523
-La Paz,24.1426,-110.3128
-San Francisco de Campeche,19.8301,-90.5349
+BajaÂ California,32.6245,-115.4523
+BajaÂ CaliforniaÂ Sur,24.1426,-110.3128
+Campeche,19.8301,-90.5349
 Chihuahua,28.633,-106.0691
-Tuxtla Gutiérrez,16.7516,-93.103
-Saltillo,25.4383,-100.9737
+Chiapas,16.7516,-93.103
+CoahuilaÂ deÂ Zaragoza,25.4383,-100.9737
 Colima,19.1223,-104.0072
-Victoria de Durango,24.0277,-104.6532
+Durango,24.0277,-104.6532
 Guanajuato,21.019,-101.2574
-Chilpancingo de los Bravo,17.5515,-99.5006
-Pachuca de Soto,20.1011,-98.7591
-Guadalajara,20.6597,-103.3496
-Toluca de Lerdo,19.2826,-99.6557
-Morelia,19.706,-101.195
-Cuernavaca,18.9242,-99.2216
-Tepic,21.5042,-104.8946
-Monterrey,25.6866,-100.3161
-Oaxaca de Juárez,17.0732,-96.7266
-Puebla de Zaragoza,19.0414,-98.2063
-Santiago de Querétaro,19.8091,-100.8875
-Chetumal,18.5002,-88.2961
-San Luis Potosí,22.1566,-100.9855
-Culiacán Rosales,24.8091,-107.394
-Hermosillo,29.073,-110.9559
-Villahermosa,17.9895,-92.9475
-Ciudad Victoria,23.7369,-99.1411
-Tlaxcala de Xicohténcatl,19.3182,-98.2375
-Xalapa-Enríquez,19.5438,-96.9102
-Mérida,20.9674,-89.5926
+Guerrero,17.5515,-99.5006
+Hidalgo,20.1011,-98.7591
+Jalisco,20.6597,-103.3496
+EstadoÂ deÂ Mexico,19.2826,-99.6557
+MichoacanÂ deÂ Ocampo,19.706,-101.195
+Morelos,18.9242,-99.2216
+Nayarit,21.5042,-104.8946
+NuevoÂ Leon,25.6866,-100.3161
+Oaxaca,17.0732,-96.7266
+Puebla,19.0414,-98.2063
+Queretaro,19.8091,-100.8875
+QuintanaÂ Roo,18.5002,-88.2961
+SanÂ LuisÂ Potosi,22.1566,-100.9855
+Sinaloa,24.8091,-107.394
+Sonora,29.073,-110.9559
+Tabasco,17.9895,-92.9475
+Tamaulipas,23.7369,-99.1411
+Tlaxcala,19.3182,-98.2375
+Veracruz,19.5438,-96.9102
+Yucatan,20.9674,-89.5926
 Zacatecas,22.7709,-102.5832
-Ciudad de México,19.4326,-99.1332
+CiudadÂ deÂ Mexico,19.4326,-99.1332
