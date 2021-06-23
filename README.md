@@ -8,7 +8,9 @@
 
 ## Introducción
 
-Los trastornos mentales constituyen un importante problema de salud publica, en particular, la depresión es la principal causa de ausentismo laboral en todo el mundo; los síntomas que presentan las personas que la padecen están relacionados con su comportamiento diario incluyendo la forma en la que se expresan. Distintos estudios han demostrado que es posible diagnosticar a una persona con depresión de acuerdo a su vocabulario, ya que este revela indicadores acerca de su estado emocional.
+Los trastornos mentales constituyen un importante problema de salud publica, en particular, la depresión es la principal causa de ausentismo laboral en todo el mundo; los síntomas que presentan las personas que la padecen están relacionados con su comportamiento diario incluyendo la forma en la que se expresan.
+
+Distintos estudios han demostrado que es posible diagnosticar a una persona con depresión de acuerdo a su vocabulario, ya que este revela indicadores acerca de su estado emocional.
 
 Las redes sociales son una parte integral en nuestras vidas diarias, a través de estas compartimos información sobre nuestros intereses, opiniones, planes futuros e incluso acerca de nuestro estado emocional. Twitter es un medio dinámico en el cual usuarios comparten mensajes frecuentemente durante el transcurso de sus actividades diarias.
 
