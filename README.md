@@ -1,39 +1,69 @@
-# Depression-in-Mexico
+# Detección de la depresión en jóvenes mexicanos mediante Procesamiento del Lenguaje Natural
+
+## Autores
+
+- Alfonso Valenciana Díaz
+- Mauricio Ivan Martínez Carmona
+- Ricardo Ariel Estrada Pérez
 
 ## Introducción
 
-Más de 300 millones de personas sufren depresión a nivel mundial siendo ésta la principal causa de ausentismo laboral en todo el mundo. Según la Organización Mundial de la Salud (OMS), en el mundo una de cada trece personas sufre depresión o algún trastorno mental relacionado. Los trastornos mentales en México constituyen un importante problema de salud pública. En relación con los años de vida perdidos por incapacidad, el trastorno depresivo ocupa el primer lugar en mujeres y el quinto en hombres.
+Los trastornos mentales constituyen un importante problema de salud publica, en particular, la depresión es la principal causa de ausentismo laboral en todo el mundo; los síntomas que presentan las personas que la padecen están relacionados con su comportamiento diario incluyendo la forma en la que se expresan. Distintos estudios han demostrado que es posible diagnosticar a una persona con depresión de acuerdo a su vocabulario, ya que este revela indicadores acerca de su estado emocional.
 
-Los síntomas que presentan las personas que la padecen están relacionados con su comportamiento diario incluyendo la forma en la que se expresan. Estudios en psicología sugieren que el uso de palabras específicas en nuestro vocabulario revelan indicadores sobre nuestro estado emocional. Diferentes trabajos relacionados con la detección y análisis de depresión revelan que las palabras que usan las personas deprimidas permiten distinguirlas de entre el resto de las personas.
+Las redes sociales son una parte integral en nuestras vidas diarias, a través de estas compartimos información sobre nuestros intereses, opiniones, planes futuros e incluso acerca de nuestro estado emocional. Twitter es un medio dinámico en el cual usuarios comparten mensajes frecuentemente durante el transcurso de sus actividades diarias.
 
-Actualmente, las redes sociales son una parte integral en nuestras vidas diarias, a través de ellas los usuarios comparten información sobre sus intereses, opiniones, planes futuros e incluso sobre su estado emocional, por ejemplo, sus alegrías y tristezas. Es por ello que estas plataformas brindan una oportunidad para transformar los servicios de detección temprana de diferentes trastornos mentales, entre ellas la depresión.
+**El uso del machine learning...**
 
-De esta forma el material extraído de redes sociales, que contiene los síntomas de estados depresivos presentes en la enorme cantidad de publicaciones realizadas en redes sociales, sirve de insumo a tareas de análisis de textos; que corresponde a la determinación de atributos y representaciones que permitan la detección de depresión en textos.
+## Planteamiento del problema
+
+De acuerdo con [[1]](#referencias) y [[2]](#referencias), la depresión (trastorno depresivo mayor o depresión clínica) es un trastorno del estado de ánimo común, provoca síntomas graves que afectan la forma de sentir, pensar y realizar las actividades cotidianas de personas de todas edades y puede ser causado por una combinación de factores genéticos, biológicos, ambientales y psicológicos.
+
+Un problema en las ciencias de la salud es el desarrollar instrumentos que permitan diagnosticar con mayor precisión la depresión y de esta forma, proveer tratamiento médico y/o terapia psicológica oportuna a los afectados por este trastorno.
+
+## Objetivo General
+
+Crear un instrumento de alta precisión que permita diagnosticar la depresión en jovenes mexicanos mediante Procesamiento de Lenguaje Natural.
+
+## Objetivos Específicos
+
+- Utilizar Python como lenguaje de programación.
+- Hacer uso de librerias de Python para la ciencia de datos.
+- Recolectar 16,000 publicaciones de Twitter por cada estado de la Republica Mexicana.
+- Emplear K-Means como metodo de agrupamiento.
+- Aplicar tecnicas de Procesamiento de Lenguaje Natural.
+
+## Justificación
+
+Según la Organización Mundial de la Salud, la depresión es la principal causa mundial de discapacidad y contribuye de forma muy importante a la carga mundial general de morbilidad. Se estima que afecta a más de 300 millones de personas en el mundo, de las cuales cada año se suicidan cerca de 800 mil personas; siendo las mujeres más propensas a padecer de este trastorno [[3]](#referencias).
+
+En particular, la depresión es difícil de diagnosticar debido a múltiples factores, de los cuales Jiang considera que “el factor más fundamental y desafiante puede ser que la depresión es una enfermedad altamente heterogénea y su patogénesis real no se ha dilucidado claramente” [[4]](#referencias), es decir, su origen, evolución y síntomas son diferentes en cada individuo, lo que resulta en el uso de instrumentos psicométricos que solamente ayudan a diagnosticar de forma parcial y subjetiva a los pacientes como se menciona en [[5]](#referencias).
+
+Entre los instrumentos más utilizados por los especialistas de la salud se encuentra el Inventario para la Depresión de Beck (BDI-II), el cual es un instrumento conformado por 21 objetos que permite detectar la presencia de síntomas depresivos y cuantificar su gravedad con base en la puntuación total obtenida, además de que puede ser aplicado sin la supervisión de un especialista [[6]](#referencias).
+
+La mayoría de los métodos orientados a la detección automática de la depresión en redes sociales han seguido un enfoque supervisado que depende de información etiquetada previamente para su construcción y emplean procedimientos compuestos por multiples pasos que pueden dificultar el proceso de clasificación, lo que resulta en un proceso sumamente complejo y costoso **¿de donde salio ésto?**.
 
 ## Estado del Arte
 
-Twitter es un medio dinámico en el cual sus usuarios comparten mensajes frecuentemente durante el transcurso de sus actividades diarias. Esta característica ha convertido a este medio en uno de los más usados para la detección de personas que sufren depresión.
+En [[7]](#referencias) se emplean representaciones BoW con pesos boleeanos, tf, tf-idf y n-gramas de 3 caracteres para la construcción de una matriz termino-documento, lo que resulta en un 0.24 de F1 Score.
 
-No obstane, esta no es una tarea sencilla. En primer lugar, los tuits son mensajes muy cortos que normalmente no proveen información de contexto y en segundo lugar, los indicadores de depresión suelen manifestarse de manera muy sutil, por lo tanto, su detección no es obvia para el lector. A pesar de estas características, trabajos recientes han reportando resultados muy alentadores en la detección de usuarios que sufren depresión y de otros trastornos mentales.
+En [[8]](#referencias) se construyen distintos diccionarios compuestos por palabras relacionadas con depresión, además de una mezcla de atributos sintacticos, semanticos y de comportamiento.
 
-La mayoría de los métodos previos, orientados a la detección automática de depresión en redes sociales, han seguido un enfoque supervisado que los hace depender de datos etiquetados para su construcción. Estos métodos han explorado distintas representaciones y técnicas de clasificación, desde técnicas tradicionales hasta basadas en aprendizaje profundo. Desafortunadamente, el proceso de recolectar y etiquetar datos para el entrenamiento es muy complejo y costoso.
-
-En general, las aproximaciones de los trabajos que han abordado esta problemática están compuestas por demasiados pasos, y tienden a complicar el proceso de clasificación y en consecuencia es difícil determinar qué tan bien funciona cada atributo seleccionado dentro de las representaciones propuestas.
-
-Prácticamente la totalidad de esos estudios emplean recursos basados en listados de palabras, la mitad emplea algún tipo de rastreo del comportamiento y sólo uno hacer clasificaciones por publicación (considerando el tamaño de la instancia como cada publicación del sujeto). Los trabajos referidos en esta sección, no toman en cuenta aspectos como las faltas de ortografía o slang/calo que emplean los individuos al escribir sus textos
-
-Tampoco se contempla en estos trabajos la búsqueda de respuestas (parciales o totales) a cuestionarios de diagnóstico clásico de depresión,los cuales incluyen preguntas como: ¿Tiene problemas para dormir? ¿Duerme demasiado? ¿Poco apetito? ¿Tiene problemas de concentración?
-
-Existen trabajos como el de Villegas, Funez, Ucelay, Cagnina y Errecalde (2017), en el que se emplean representaciones con BoW con pesos booleano, tf y tf-idf y también se contemplan n-gramas de 3 caracteres para la construcción de su matriz término-documento (document-term matrix -dtm-). Su baseline en F1 measure con representación de BOW es de 0.24.
-
-Por su parte, Almeida et al. (2017), toma en cuenta varios diccionarios conformados por listados de palabras relacionadas con depresión: sentimientos, nombres de medicamentos o enfermedades mentales para su trabajo. Se mezclaron el uso de atributos sintácticos, semánticos y de comportamiento.
-
-En la investigación de Malam et al. (2017) se establecen características de tipo semántico y estadísticas. Las características de tipo semántico contemplan entre otros aspectos: Uso de referencias a sí mismo, términos de generalización, análisis de sentimiento, análisis de emociones, síntomas de depresión o palabras en pasado. Dentro de los atributos calculados de tipo estadístico se encuentran: las variaciones en el número de publicaciones, medias de publicaciones, palabras, comentarios o palabras por comentario. Se obtiene un resultado de F1 measure de: 0.47.
+En [[9]](#referencias), por un lado se establecen caracteristicas de tipo semantico y estadisticas, lo que resulta en un 0.47 de F1 Score.
 
 ## Referencias
 
-Villegas, M. P., Funez, D. G., Ucelay, M. J. G., Cagnina, L. C. y Errecalde, M. L. (2017). LIDIC - UNSL’s Participation at eRisk 2017: Pilot Task on Early Detec- tion of Depression. En CLEF.
-
-Almeida, H., Briand, A. y Meurs, M.-J. (2017). Detecting early risk of depression from social media user-generated content. Working Notes of CLEF.
-
-Malam, I. A., Arziki, M., Bellazrak, M. N., Benamara, F., Kaidi, A. E., Es-Saghir, B., . . . y Ramiandrisoa, F. (2017). IRIT at e-Risk. En CLEF.
+1. National Institute of Mental Health, “Depression”, February 2018. [Online]. 
+Available: https://www.nimh.nih.gov/health/topics/depression/index.shtml (accessed Apr. 21, 2021).
+2. Centers for Disease Control and Prevention, “Mental Health Conditions: Depression and Anxiety”, January 2020. [Online]. 
+Available: https://www.cdc.gov/tobacco/campaign/tips/diseases/depression-anxiety.html (accessed Apr. 21, 2021).
+3. World Health Organization, “Depression”, January 2020. [Online]. 
+Available: https://www.who.int/es/news-room/fact-sheets/detail/depression (accessed Apr. 21, 2021).
+4. K. Jiang, “Why is Diagnosing MDD Challenging?.” in Shanghai Archives of Psychiatry, Dec. 2016. [Online]. 
+Available: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5434292/ (accessed May. 6, 2021).
+5. Harvard Health Publishing, “Major Depression: What Is It?”, December 2018. [Online]. 
+Available: https://www.health.harvard.edu/a_to_z/major-depression-a-to-z (accessed May. 6, 2021).
+6. Grupo de trabajo de la Guía de Práctica Clínica sobre el Manejo de la Depresión en el Adulto, Guía de Práctica Clínica sobre el Manejo de la Depresión en el Adulto. (2014). [Online]. 
+Available: https://portal.guiasalud.es/wp-content/uploads/2020/10/gpc_534_depresion_adulto_avaliat_compl_caduc.pdf (accessed May. 6, 2021).
+7. M. P. Villegas, D. G. Funez, M. J. Garciarena-Ucelay, L. C. Cagnina and M. L. Errecalde, "Pilot task on Early Detection of Depression," presented at the CLEF, Dublin, Ireland, 2017.
+8. H. Almeida, A. Briand and M. J. Meurs, "Detecting Early Risk of Depression from Social Media User-generated Content," presented at the CLEF, Dublin, Ireland, 2017.
+9. F. Ramiandrisoa, J. Mothe, F. Benamara and V. Moriceau, "IRIT at e-Risk 2018," presented at the CLEF, Dublin, Ireland, 2018.
