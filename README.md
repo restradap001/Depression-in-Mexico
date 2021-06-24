@@ -16,6 +16,14 @@ Las redes sociales son una parte integral en nuestras vidas diarias, a través d
 
 **El uso del machine learning...**
 
+Si bien el diagnóstico de las enfermedades mentales es complejo, las técnicas modernas de machine learning se muestran como herramientas de gran utilidad a la ciencia psiquiátrica para facilitar esta tarea. En años recientes han proliferado artículos y publicaciones relativas a investigaciones en las que se han utilizado técnicas de machine learning en busca de una metodología diagnóstica efectiva.
+
+Uno de los más destacados se publicó en 2020[[11]](#referencias). En dicho estudio, un equipo de investigadores japoneses, de la Universidad de Tokio, sorprendieron con un interesante trabajo publicado en Translational Psychiatry, hecho en adultos japoneses con un diagnóstico del espectro autista y esquizofrenia, personas con alto riesgo de acabar desarrollando esquizofrenia, sujetos que habían tenido algún tipo de episodio psicótico, pero que aún no habían desarrollado esquizofrenia, y personas sin enfermedades mentales que formaban parte del grupo control. En total, se incluyó a 206 participantes. El sistema de machine learning utilizado en este trabaj pudo diferenciar entre seis tipos de diagnósticos: no pacientes, pacientes con un trastorno del espectro autista, pacientes con esquizofrenia o factores de riesgo de esquizofrenia.
+
+Otro estudio publicado en Psychiatry Research[[12]](#referencias) ha demostrado que es posible identificar qué pacientes serían depresivos a través de imágenes obtenidas por resonancia magnética, y su posterior análisis mediante máquinas sujetas al aprendizaje automático.
+
+Gracias a líneas de investigación en machine learning como estas, el futuro parece indicar que estas técnicas estáran cada vez más presentes en la psiquiatría y la neurología. 
+
 ## Planteamiento del problema
 
 De acuerdo con [[1]](#referencias) y [[2]](#referencias), la depresión (trastorno depresivo mayor o depresión clínica) es un trastorno del estado de ánimo común, provoca síntomas graves que afectan la forma de sentir, pensar y realizar las actividades cotidianas de personas de todas edades y puede ser causado por una combinación de factores genéticos, biológicos, ambientales y psicológicos.
@@ -42,7 +50,7 @@ En particular, la depresión es difícil de diagnosticar debido a múltiples fac
 
 Entre los instrumentos más utilizados por los especialistas de la salud se encuentra el Inventario para la Depresión de Beck (BDI-II), el cual es un instrumento conformado por 21 objetos que permite detectar la presencia de síntomas depresivos y cuantificar su gravedad con base en la puntuación total obtenida, además de que puede ser aplicado sin la supervisión de un especialista [[6]](#referencias).
 
-La mayoría de los métodos orientados a la detección automática de la depresión en redes sociales han seguido un enfoque supervisado que depende de información etiquetada previamente para su construcción y emplean procedimientos compuestos por multiples pasos que pueden dificultar el proceso de clasificación, lo que resulta en un proceso sumamente complejo y costoso **¿de donde salio ésto?**.
+La mayoría de los métodos orientados a la detección automática de la depresión en redes sociales han seguido un enfoque supervisado que depende de información etiquetada previamente para su construcción y emplean procedimientos compuestos por multiples pasos que pueden dificultar el proceso de clasificación, lo que resulta en un proceso sumamente complejo y costoso,, como se muestra en [[10]](#referencias).
 
 ## Estado del Arte
 
@@ -69,3 +77,6 @@ Available: https://portal.guiasalud.es/wp-content/uploads/2020/10/gpc_534_depres
 7. M. P. Villegas, D. G. Funez, M. J. Garciarena-Ucelay, L. C. Cagnina and M. L. Errecalde, "Pilot task on Early Detection of Depression," presented at the CLEF, Dublin, Ireland, 2017.
 8. H. Almeida, A. Briand and M. J. Meurs, "Detecting Early Risk of Depression from Social Media User-generated Content," presented at the CLEF, Dublin, Ireland, 2017.
 9. F. Ramiandrisoa, J. Mothe, F. Benamara and V. Moriceau, "IRIT at e-Risk 2018," presented at the CLEF, Dublin, Ireland, 2018.
+10. Coello, 2019. "Clasificación translingüe para la detección de depresi ́on en usuarios de Twitter". Available: https://inaoe.repositorioinstitucional.mx/jspui/bitstream/1009/1952/1/CoelloGDL.pdf
+11. Yassin, 2020, "Machine-learning classification using neuroimaging data in schizophrenia, autism, ultra-high risk and first-episode psychosis". Available: https://www.nature.com/articles/s41398-020-00965-5 
+12. Psyquiatric Research, August 2021, Available: https://www.sciencedirect.com/journal/psychiatry-research-neuroimaging
