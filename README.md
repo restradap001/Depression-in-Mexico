@@ -50,7 +50,7 @@ En particular, la depresión es difícil de diagnosticar debido a múltiples fac
 
 Entre los instrumentos más utilizados por los especialistas de la salud se encuentra el Inventario para la Depresión de Beck (BDI-II), el cual es un instrumento conformado por 21 objetos que permite detectar la presencia de síntomas depresivos y cuantificar su gravedad con base en la puntuación total obtenida, además de que puede ser aplicado sin la supervisión de un especialista [[6]](#referencias).
 
-La mayoría de los métodos orientados a la detección automática de la depresión en redes sociales han seguido un enfoque supervisado que depende de información etiquetada previamente para su construcción y emplean procedimientos compuestos por multiples pasos que pueden dificultar el proceso de clasificación, lo que resulta en un proceso sumamente complejo y costoso,, como se muestra en [[10]](#referencias).
+La mayoría de los métodos orientados a la detección automática de la depresión en redes sociales han seguido un enfoque supervisado que depende de información etiquetada previamente para su construcción y emplean procedimientos compuestos por multiples pasos que pueden dificultar el proceso de clasificación, lo que resulta en un proceso sumamente complejo y costoso,como se muestra en [[10]](#referencias).
 
 ## Estado del Arte
 
