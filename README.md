@@ -8,7 +8,7 @@
 
 ## Introducción
 
-Los trastornos mentales constituyen un importante problema de salud publica, en particular, la depresión es la principal causa de ausentismo laboral en todo el mundo; los síntomas que presentan las personas que la padecen están relacionados con su comportamiento diario incluyendo la forma en la que se expresan.
+Los trastornos mentales constituyen un importante problema de salud pública, en particular, la depresión es la principal causa de ausentismo laboral en todo el mundo; los síntomas que presentan las personas que la padecen están relacionados con su comportamiento diario incluyendo la forma en la que se expresan.
 
 Las redes sociales son una parte integral en nuestras vidas diarias, a través de estas compartimos información sobre nuestros intereses, opiniones, planes futuros e incluso acerca de nuestro estado emocional. Twitter es un medio dinámico en el cual usuarios comparten mensajes frecuentemente durante el transcurso de sus actividades diarias.
 
@@ -18,7 +18,7 @@ Si bien el diagnóstico de las enfermedades mentales es complejo, las técnicas 
 
 En 2020, un equipo de investigadores japoneses de la Universidad de Tokio sorprendieron con un interesante trabajo publicado en Translational Psychiatry, hecho en adultos japoneses con un diagnóstico del espectro autista y esquizofrenia, personas con alto riesgo de acabar desarrollando esquizofrenia, sujetos que habían tenido algún tipo de episodio psicótico, pero que aún no habían desarrollado esquizofrenia, y personas sin enfermedades mentales que formaban parte del grupo control. En total, se incluyó a 206 participantes. El sistema de machine learning utilizado en este trabajo pudo diferenciar entre seis tipos de diagnósticos: no pacientes, pacientes con un trastorno del espectro autista, pacientes con esquizofrenia o factores de riesgo de esquizofrenia [[1]](#referencias).
 
-El uso de Machine Learning para la solución de problemas en el sector de la salud esta cada vez mas presente, por lo que el diseño de herramientas de alto beneficio y bajo costo es necesario para la prevencion y deteccion oportuna de todo tipo de enfermedades.
+El uso de Machine Learning para la solución de problemas en el sector de la salud esta cada vez más presente, por lo que el diseño de herramientas de alto beneficio y bajo costo es necesario para la prevención y detección oportuna de todo tipo de enfermedades.
 
 ## Planteamiento del problema
 
@@ -28,15 +28,15 @@ Un problema en las ciencias de la salud es el desarrollar instrumentos que permi
 
 ## Objetivo General
 
-Crear un instrumento de alta precisión que permita diagnosticar la depresión en jovenes mexicanos mediante Procesamiento de Lenguaje Natural.
+Crear un instrumento de alta precisión que permita diagnosticar la depresión en jóvenes mexicanos mediante Procesamiento de Lenguaje Natural.
 
 ## Objetivos Específicos
 
 - Utilizar Python como lenguaje de programación.
-- Hacer uso de librerias de Python para la ciencia de datos.
-- Recolectar 16,000 publicaciones de Twitter por cada estado de la Republica Mexicana.
-- Emplear K-Means como metodo de agrupamiento.
-- Aplicar tecnicas de Procesamiento de Lenguaje Natural.
+- Hacer uso de librerías de Python para la ciencia de datos.
+- Recolectar 16.000 publicaciones de Twitter por cada estado de la República Mexicana.
+- Emplear K-Means como método de agrupamiento.
+- Aplicar técnicas de Procesamiento de Lenguaje Natural.
 
 ## Justificación
 
@@ -50,11 +50,11 @@ La mayoría de los métodos orientados a la detección automática de la depresi
 
 ## Estado del Arte
 
-En [[9]](#referencias) se emplean representaciones BoW con pesos boleeanos, tf, tf-idf y n-gramas de 3 caracteres para la construcción de una matriz termino-documento, lo que resulta en un 0.24 de F1 Score.
+En [[9]](#referencias) se emplean representaciones BoW con pesos lógicos, tf, tf-idf y n-gramas de 3 caracteres para la construcción de una matriz termino-documento, lo que resulta en un 0,24 de F1 Score.
 
-En [[10]](#referencias) se construyen distintos diccionarios compuestos por palabras relacionadas con depresión, además de una mezcla de atributos sintacticos, semanticos y de comportamiento.
+En [[10]](#referencias) se construyen distintos diccionarios compuestos por palabras relacionadas con depresión, además de una mezcla de atributos sintácticos, semánticos y de comportamiento.
 
-En [[11]](#referencias), por un lado se establecen caracteristicas de tipo semantico y estadisticas, lo que resulta en un 0.47 de F1 Score.
+En [[11]](#referencias), por un lado se establecen características de tipo semántico y estadísticas, lo que resulta en un 0,47 de F1 Score.
 
 ## Referencias
 
